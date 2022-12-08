@@ -1,0 +1,26 @@
+*{
+	margin:0;
+	padding: 0;
+}
+#banner{
+	background: linear-gradient(rgba(0,0,0,0.3),#010),url(images/banner.jpg);
+	background-size:cover;
+	background-position: center;
+	height: 100vh;
+}
+/*--feature--*/
+
+#feature{
+	width:100%;
+	padding:70px 0;
+}
+.title-text{
+	text-align: center;
+	padding-bottom:70px;
+}
+.title-text p{
+	margin:auto;
+	font-size:20px;
+	color:#009688;
+	font-weight: bold;
+}
