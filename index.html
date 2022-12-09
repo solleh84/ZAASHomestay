@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
 
 <body>
@@ -22,8 +23,8 @@
 	<h1>ZAAS Homestay</h1>
 	<p>Keselasaan Anda Keutamaan Kami</p>
 	<div class="banner-btn">
-	<a href="#"><span></span>Find Out</a>
-	<a href="#"><span></span>Read More</a>
+	<a href="#testimonial"><span></span>TESTIMONI</a>
+	<a href="#footer"><span></span>TEMPAHAN</a>
 </div>
 </div>
 </section>
@@ -31,10 +32,11 @@
 <div id="sideNav">
 	<nav>
 		<ul>
-			<li><a href="#">HOME</a></li>
-			<li><a href="#">HOME</a></li>
-			<li><a href="#">HOME</a></li>
-			<li><a href="#">HOME</a></li>
+			<li><a href="#banner">HOME</a></li>
+			<li><a href="#feature">KEMUDAHAN</a></li>
+			<li><a href="#service">RUANG</a></li>
+			<li><a href="#testimonial">TESTIMONI</a></li>
+			<li><a href="#footer">CONTACT</a></li>
 		</ul>
 	</nav>
 </div>
@@ -57,11 +59,16 @@
 	else{ sideNav.style.right = "-250px";
 		menu.src = "images/menu.png";
 	}}
+	
+	var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
 </script>
 
 <section id="feature">
 <div class="title-text">
-<p>Kemudahan</p>
+<p>KEMUDAHAN</p>
 <h1>Istimewa</h1>
 </div>
 <div class="feature-box">
@@ -81,7 +88,7 @@
 			<i class="fa fa-television"></i>
 		</div>
 		<div class="feature-text">
-		<p>Bagi pelanggan yang bekerja sambil bercuti tidak perlu risau kerana kita mempunyai wifi yang laju </p>
+		<p>Pelbagai Hiburan boleh ditonton menerusi Android TV yang disediakan</p>
 		</div>
 		
 </div>
@@ -91,7 +98,7 @@
 			<i class="fa fa-envira" ></i>
 		</div>
 		<div class="feature-text">
-		<p>Bagi pelanggan yang bekerja sambil bercuti tidak perlu risau kerana kita mempunyai wifi yang laju </p>
+		<p>Bagi memudahkan pelanggan yang menginap lama supaya boleh mengekalkan bekalan pakaian yang sedia ada </p>
 		</div>
 	</div>
 	
@@ -101,11 +108,13 @@
 			<i class="fa fa-snowflake-o" ></i>
 		</div>
 		<div class="feature-text">
-		<p>Bagi pelanggan yang bekerja sambil bercuti tidak perlu risau kerana kita mempunyai wifi yang laju </p>
+		<p>Teknolagi terkini dimana penapis air digunakan bagi memudahakan pelanggan</p>
 		</div>
+	</div>
 	</div>
 	<div class="features-img">
 		<img src="images/barber-man.jpg">
+		<img src="images/pic-7.jpg">
 	</div>
 	
 </div>
@@ -115,30 +124,85 @@
 
 <section id="service">
 <div class="title-text">
-<p>SERVICE</p>
-<h1>We Provide Better</h1>
+<p>RUANG</p>
+<h1>Sudut Ruang Yang Selesa</h1>
 </div>
 <div class="service-box">
+
+	<div class="single-service">
+		<img src="images/pic-6.jpg">
+		<div class="overlay"></div>
+		<div class="service-desc">
+			<h3>Ruang Tamu</h3>
+			<hr>
+			<p><dl>
+				  <li>Mempunyai set sofa yang selesa</li>
+				  <li>Air Cond</li>
+				  <li>Android TV</li>
+			</dl></p>
+			</div>
+	</div>
 	<div class="single-service">
 		<img src="images/pic-1.jpg">
 		<div class="overlay"></div>
 		<div class="service-desc">
-			<h3>Master Bedroom</>
+			<h3>Master Bedroom</h3>
 			<hr>
-			<p>svjlsnvlknvkmvk;ds</p>
+			<p><dl>
+				  <li>Katil Bersaiz King</li>
+				  <li>Air Cond</li>
+				  <li>Bilik Air</li>
+			</dl></p>
 			</div>
 	</div>
 	<div class="single-service">
 		<img src="images/pic-2.jpg">
 		<div class="overlay"></div>
+		<div class="service-desc">
+			<h3>Second Bedroom</h3>
+			<hr>
+			<p><dl>
+				  <li>Katil Bersaiz Queen</li>
+				  <li>Air Cond</li>				  
+			</dl></p>
+			</div>
 	</div>
 	<div class="single-service">
 		<img src="images/pic-3.jpg">
 		<div class="overlay"></div>
+		<div class="service-desc">
+			<h3>Third Bedroom</h3>
+			<hr>
+			<p><dl>
+				  <li>Katil Bersaiz Queen</li>
+				  <li>Air Cond</li>				  
+			</dl></p>
+			</div>
+	</div>
+	<div class="single-service">
+		<img src="images/pic-5.jpg">
+		<div class="overlay"></div>
+		<div class="service-desc">
+			<h3>Ruang Makan</h3>
+			<hr>
+			<p><dl>
+				<li>Meja Makan 6 Kerusi</li>	
+				<li>Peti Sejuk</li>
+			</dl></p>
+			</div>
 	</div>
 	<div class="single-service">
 		<img src="images/pic-4.jpg">
 		<div class="overlay"></div>
+		<div class="service-desc">
+			<h3>Dapur</h3>
+			<hr>
+			<p><dl>
+				  <li>Dapur Memasak</li>
+				  <li>Peralatan Memasak</li>
+				  <li>Penapis Air Minuman Coway</li>				  
+			</dl></p>
+			</div>
 	</div>
 </div>
 </section>
@@ -147,26 +211,21 @@
 
 <section id="testimonial">
 	<div class="title-text">
-	<p>TESTIMONIAL</p>
-	<h1>What Customer Says</h1>
+	<p>TESTIMONI</p>
+	<h1>Pengalaman Daripada Pelanggan</h1>
 	</div>
 	<div class="testimonial-row">
-		<div class="testimonial-col">
-			<div class="user">
-				<img src="images/img-1.jpg">
-				<div class="user-info">
-					<h4>KEN KON<i class="fa fa-whatsapp"></i></h4>
-					<small>@kenkon</small>
-				</div>
-			</div>
-		
-			<p>kgkfdsfdsbf</p>
+		<div class="testimonial-col">		
+			<img src="images/img-1.jpg">
 		</div>
 		<div class="testimonial-col">
-			<p>smnjdjduexnncncncnc</p>
+			<img src="images/img-2.jpg">
 		</div>
 		<div class="testimonial-col">
-			<p>m,cxm,v,xcbvxzbsdb</p>
+			<img src="images/img-3.jpg">
+		</div>
+		<div class="testimonial-col">
+			<img src="images/img-4.jpg">
 		</div>
 	</div>
 </section>
@@ -176,15 +235,18 @@
 <section id="footer">
 	<div class="title-text">
 	<p>CONTACT</p>
-	<h1>Visit</h1>
+	<h1>Hubungi Kami Untuk Tempahan</h1>
 	</div>
 	<div class="footer-row">
 	<div class="footer-left">
-		<h1>Open Hour</h1>
-		<p>sdjkncodscn</p>
+		<h1>Check In dan Check Out</h1>
+		<p>Masa Check In - 3.00pm</p>
+		<p>Masa Check Out - 12.00pm</p>
 	</div>
 	<div class="footer-right">
-		<h1>Get In</h1>
+		<h1>Untuk Tempahan</h1>		
+		<p><a href="https://api.whatsapp.com/send?phone=60123468996">+6012 346 8996</a><i class="fa fa-whatsapp"></i></p>
+		</div>
 	</div>
 	</div>
 	

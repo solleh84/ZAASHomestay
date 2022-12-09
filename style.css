@@ -197,7 +197,20 @@ nav ul li a{
 	padding: 0 20px;
 	text-align: initial;
 }
-
+@media screen and (max-width:770px){
+	.title-text h1{
+		font-size: 35px;
+	}
+	.features{
+		flex-basis:100%;
+	}
+	.features-img{
+		flex-basis:100%;
+	}
+	.features-img img{
+		width:100%;
+	}
+}
 
 
 
@@ -260,9 +273,19 @@ hr{
 }
 .service-desc p {
 	font-size: 14px;
-
 }
-.single-service: hover .service-desc{
+p ul li{
+	list-style: none;
+	margin: 50px 20px;
+}
+
+p ul li a{
+	
+	text-decoration:none;
+	color: #fff;
+}
+
+.single-service:hover .service-desc{
 	bottom: 40%;
 	opacity:1;
 }
@@ -277,8 +300,8 @@ hr{
 	hr{
 		margin: 5px auto;
 	}
-	.single-service: hover .service-desc{
-		bottom: 25%
+	.single-service:hover .service-desc{
+		bottom: 25%;
 	}
 }
 
@@ -313,8 +336,9 @@ hr{
 	margin:20px 0;
 }
 .user img{
-	width:40px;
+	width:240px;
 	margin-right:20px;
+	margin-left:20px;
 	border-radius:3px;
 }
 .user-info .fa{
@@ -365,4 +389,10 @@ hr{
 	font-size: 20px;
 	color: #009688;
 	margin: 10px;
+}
+@media screen and (max-width:770px){
+	.footer-left,.footer-right{
+		flex-basis:100%;
+		font-size: 14px;
+	}
 }
