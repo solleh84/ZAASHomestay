@@ -110,9 +110,7 @@ nav ul li a{
 	.banner-text h1{
 		font-size:40px;
 	}
-	.banner-text p{
-		font-size:15px;
-	}
+	
 	.banner-btn a{
 		display: block;
 		margin: 20px auto;
@@ -185,6 +183,19 @@ nav ul li a{
 	display: flex;
 	align-items: center;
 	margin-bottom:40px;
+}
+.feature-icon .fa{
+	width:50px;
+	height:50px;
+	font-size:30px;
+	line-height:50px;
+	border-radius:8px;
+	color:#009688;
+	border: 1px solid #009688;
+}
+.feature-text p{
+	padding: 0 20px;
+	text-align: initial;
 }
 
 
