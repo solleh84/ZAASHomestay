@@ -274,16 +274,7 @@ hr{
 .service-desc p {
 	font-size: 14px;
 }
-p ul li{
-	list-style: none;
-	margin: 50px 20px;
-}
 
-p ul li a{
-	
-	text-decoration:none;
-	color: #fff;
-}
 
 .single-service:hover .service-desc{
 	bottom: 40%;
@@ -292,7 +283,7 @@ p ul li a{
 @media screen and (max-width: 770px){
 	.single-service{
 		flex-basis:100%;
-		margin-bottom:30px;
+		margin-bottom:10px;
 	}
 	.service-desc p{
 		font-size:12px;
@@ -301,7 +292,7 @@ p ul li a{
 		margin: 5px auto;
 	}
 	.single-service:hover .service-desc{
-		bottom: 25%;
+		bottom: 3%;
 	}
 }
 
@@ -351,6 +342,12 @@ p ul li a{
 }
 .testimonial-col::hover{
 	transform: translateY(-7px);
+}
+.testimonial-col img{
+	width:240px;
+	margin-right:20px;
+	margin-left:20px;
+	border-radius:3px;
 }
 @media screen and (max-width:770px){
 	.testimonial-col{
